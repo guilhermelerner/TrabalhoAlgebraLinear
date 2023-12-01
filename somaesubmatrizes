@@ -1,0 +1,53 @@
+//SOMA E SUBTRACAO DE MATRIZES 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int linhas, colunas;
+
+    cout << "Digite o número de linhas e colunas das matrizes: ";
+    cin >> linhas >> colunas;
+
+
+    int matrizA[linhas][colunas];
+    int matrizB[linhas][colunas];
+    int soma[linhas][colunas];
+    int subtracao[linhas][colunas];
+
+
+    cout << "Digite os elementos da matriz A:" << endl;
+    for (int i = 0; i < linhas; ++i)
+        for (int j = 0; j < colunas; ++j)
+            cin >> matrizA[i][j];
+
+    cout << "Digite os elementos da matriz B:" << endl;
+    for (int i = 0; i < linhas; ++i)
+        for (int j = 0; j < colunas; ++j)
+            cin >> matrizB[i][j];
+
+    for (int i = 0; i < linhas; ++i)
+        for (int j = 0; j < colunas; ++j)
+            soma[i][j] = matrizA[i][j] + matrizB[i][j];
+
+    for (int i = 0; i < linhas; ++i)
+        for (int j = 0; j < colunas; ++j)
+            subtracao[i][j] = matrizA[i][j] - matrizB[i][j];
+
+    cout << "Matriz Soma:" << endl;
+    for (int i = 0; i < linhas; ++i) {
+        for (int j = 0; j < colunas; ++j)
+            cout << soma[i][j] << " ";
+        cout << endl;
+    }
+
+    cout << "Matriz Subtração:" << endl;
+    for (int i = 0; i < linhas; ++i) {
+        for (int j = 0; j < colunas; ++j)
+            cout << subtracao[i][j] << " ";
+        cout << endl;
+    }
+
+    return 0;
+}
