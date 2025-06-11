@@ -1,11 +1,18 @@
----
+<div align="center">
 
-<h1 align="left">📚 Trabalho de Álgebra Linear 📚</h1>
+<h3 align="center">Sistema de Eliminação de Gauss-Jordan </h3>
 
----
+<p align="center">Trabalho final da disciplina de Algebra Linear</p>
 
-<h2 align="left">Professor: Marcelo</h2>
+<br>
 
-<h2 align="left">Tema: Eliminação de Gauss-Jordan</h2>
+<p align="center">
+  👨‍🏫 <strong>Professor:</strong> Marcelo <br>
+  📚 <strong>Matéria:</strong> Algebra Linear <br>
+  ✅ <strong>Status:</strong> Concluído
+</p>
+
+<br>
+</div>
 
 ---
